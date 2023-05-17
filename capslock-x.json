@@ -149,10 +149,10 @@
           ]
         },
         {
-          "description": "Move to the beginning of the current line",
+          "description": "Enter",
           "type": "basic",
           "from": {
-            "key_code": "semicolon",
+            "key_code": "k",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -164,15 +164,15 @@
           },
           "to": [
             {
-              "key_code": "home"
+              "key_code": "return_or_enter"
             }
           ]
         },
         {
-          "description": "Move to the end of the current line",
+          "description": "Backspace",
           "type": "basic",
           "from": {
-            "key_code": "hyphen",
+            "key_code": "m",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -184,7 +184,7 @@
           },
           "to": [
             {
-              "key_code": "end"
+              "key_code": "delete_or_backspace"
             }
           ]
         }
