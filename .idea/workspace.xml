@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22c370b5-9169-42b9-b49c-af6f01456bf8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/README_CN.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/capslock-x.json" beforeDir="false" afterPath="$PROJECT_DIR$/capslock-x.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +51,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684325897652</updated>
-      <workItem from="1684325899312" duration="1145000" />
+      <workItem from="1684325899312" duration="1449000" />
     </task>
+    <task id="LOCAL-00001" summary="Personalisation">
+      <created>1684327126849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684327126849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Personalisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Personalisation" />
   </component>
 </project>
