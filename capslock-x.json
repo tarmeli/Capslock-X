@@ -304,30 +304,6 @@
           ]
         },
         {
-          "description": "Selection right",
-          "type": "basic",
-          "from": {
-            "key_code": "ö",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": [
-                "left_shift"
-              ]
-            }
-          ]
-        },
-        {
           "description": "Selection up",
           "type": "basic",
           "from": {
@@ -393,31 +369,6 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": [
-                "left_option",
-                "left_shift"
-              ]
-            }
-          ]
-        },
-        {
-          "description": "Selection to the end of the previous word",
-          "type": "basic",
-          "from": {
-            "key_code": "ä",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
               "modifiers": [
                 "left_option",
                 "left_shift"
