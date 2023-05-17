@@ -1,9 +1,9 @@
 {
   "title": "CapsLock-X",
   "version": "1.0.0",
-  "maintainers": ["BryanHoo"],
-  "homepage": "https://github.com/BryanHoo/Capslock-X",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/BryanHoo/Capslock-X/main/capslock-x.json",
+  "maintainers": ["Tarmeli"],
+  "homepage": "https://github.com/tarmeli/Capslock-X",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/tarmeli/Capslock-X/blob/main/capslock-x.json",
   "rules": [
     {
       "description": "CapsLock to Hyper",
@@ -50,27 +50,6 @@
               "modifiers": ["left_control"]
             }
           ]
-        },
-        {
-          "description": "Language switch",
-          "type": "basic",
-          "from": {
-            "key_code": "spacebar",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "spacebar",
-              "modifiers": ["left_control"]
-            }
-          ]
         }
       ]
     },
@@ -81,7 +60,7 @@
           "description": "Move left",
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "n",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -101,7 +80,7 @@
           "description": "Move right",
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "o",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -121,7 +100,7 @@
           "description": "Move up",
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "e",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -141,7 +120,7 @@
           "description": "Move down",
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "i",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -182,28 +161,7 @@
           "description": "Move to the end of the previous word",
           "type": "basic",
           "from": {
-            "key_code": "quote",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": ["left_option"]
-            }
-          ]
-        },
-        {
-          "description": "Move to the beginning of the current line",
-          "type": "basic",
-          "from": {
-            "key_code": "i",
+            "key_code": "m",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -216,15 +174,15 @@
           "to": [
             {
               "key_code": "left_arrow",
-              "modifiers": ["left_command"]
+              "modifiers": ["left_option"]
             }
           ]
         },
         {
-          "description": "Move to the end of the current line",
+          "description": "Move to the beginning of the current line",
           "type": "basic",
           "from": {
-            "key_code": "o",
+            "key_code": "semicolon",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -236,8 +194,27 @@
           },
           "to": [
             {
-              "key_code": "right_arrow",
-              "modifiers": ["left_command"]
+              "key_code": "home"
+            }
+          ]
+        },
+        {
+          "description": "Move to the end of the current line",
+          "type": "basic",
+          "from": {
+            "key_code": "hyphen",
+            "modifiers": {
+              "mandatory": [
+                "right_command",
+                "right_control",
+                "right_shift",
+                "right_option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "end"
             }
           ]
         },
@@ -245,7 +222,7 @@
           "description": "Move to the top of the current page",
           "type": "basic",
           "from": {
-            "key_code": "u",
+            "key_code": "comma",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -265,7 +242,7 @@
           "description": "Move to the bottom of the current page",
           "type": "basic",
           "from": {
-            "key_code": "p",
+            "key_code": "period",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -290,7 +267,7 @@
           "description": "Selection left",
           "type": "basic",
           "from": {
-            "key_code": "h",
+            "key_code": "l",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -312,7 +289,7 @@
           "description": "Selection right",
           "type": "basic",
           "from": {
-            "key_code": "l",
+            "key_code": "ö",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -334,7 +311,7 @@
           "description": "Selection up",
           "type": "basic",
           "from": {
-            "key_code": "k",
+            "key_code": "u",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -356,7 +333,7 @@
           "description": "Selection down",
           "type": "basic",
           "from": {
-            "key_code": "j",
+            "key_code": "y",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -378,7 +355,7 @@
           "description": "Selection to the beginning of the previous word",
           "type": "basic",
           "from": {
-            "key_code": "semicolon",
+            "key_code": "h",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -400,7 +377,7 @@
           "description": "Selection to the end of the previous word",
           "type": "basic",
           "from": {
-            "key_code": "quote",
+            "key_code": "ä",
             "modifiers": {
               "mandatory": [
                 "left_command",
@@ -417,142 +394,6 @@
               "modifiers": ["left_option", "left_shift"]
             }
           ]
-        },
-        {
-          "description": "Selection to the beginning of the current line",
-          "type": "basic",
-          "from": {
-            "key_code": "i",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_arrow",
-              "modifiers": ["left_command", "left_shift"]
-            }
-          ]
-        },
-        {
-          "description": "Selection to the end of the current line",
-          "type": "basic",
-          "from": {
-            "key_code": "o",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": ["left_command", "left_shift"]
-            }
-          ]
-        },
-        {
-          "description": "Selection to the top of the current page",
-          "type": "basic",
-          "from": {
-            "key_code": "u",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "page_up",
-              "modifiers": {
-                "mandatory": ["left_shift"]
-              }
-            }
-          ]
-        },
-        {
-          "description": "Selection to the bottom of the current page",
-          "type": "basic",
-          "from": {
-            "key_code": "p",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "page_down",
-              "modifiers": {
-                "mandatory": ["left_shift"]
-              }
-            }
-          ]
-        },
-        {
-          "description": "Selection to the beginning of the document",
-          "type": "basic",
-          "from": {
-            "key_code": "open_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "up_arrow",
-              "modifiers": ["left_shift", "left_command"]
-            }
-          ]
-        },
-        {
-          "description": "Selection to the end of the document",
-          "type": "basic",
-          "from": {
-            "key_code": "close_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_command",
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "down_arrow",
-              "modifiers": ["left_shift", "left_command"]
-            }
-          ]
         }
       ]
     },
@@ -563,7 +404,7 @@
           "description": "Delete the character to the left of the insertion point",
           "type": "basic",
           "from": {
-            "key_code": "m",
+            "key_code": "space",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -574,78 +415,6 @@
             }
           },
           "to": [
-            {
-              "key_code": "delete_or_backspace"
-            }
-          ]
-        },
-        {
-          "description": "Delete the character to the right of the insertion point",
-          "type": "basic",
-          "from": {
-            "key_code": "comma",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": ["left_shift"]
-            },
-            {
-              "key_code": "delete_or_backspace"
-            }
-          ]
-        },
-        {
-          "description": "Delete the word to the left of the insertion point",
-          "type": "basic",
-          "from": {
-            "key_code": "n",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "left_arrow",
-              "modifiers": ["left_shift", "left_option"]
-            },
-            {
-              "key_code": "delete_or_backspace"
-            }
-          ]
-        },
-        {
-          "description": "Delete the word to the right of the insertion point",
-          "type": "basic",
-          "from": {
-            "key_code": "period",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "right_arrow",
-              "modifiers": ["left_shift", "left_option"]
-            },
             {
               "key_code": "delete_or_backspace"
             }
@@ -655,9 +424,10 @@
           "description": "Delete the entire line before the cursor",
           "type": "basic",
           "from": {
-            "key_code": "delete_or_backspace",
+            "key_code": "space",
             "modifiers": {
               "mandatory": [
+                "left_command",
                 "right_command",
                 "right_control",
                 "right_shift",
@@ -669,52 +439,6 @@
             {
               "key_code": "delete_or_backspace",
               "modifiers": ["left_command"]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Application operation",
-      "manipulators": [
-        {
-          "description": "Switch tab",
-          "type": "basic",
-          "from": {
-            "key_code": "s",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "tab",
-              "modifiers": ["left_control", "left_shift"]
-            }
-          ]
-        },
-        {
-          "description": "iTerm2",
-          "type": "basic",
-          "from": {
-            "key_code": "r",
-            "modifiers": {
-              "mandatory": [
-                "right_command",
-                "right_control",
-                "right_shift",
-                "right_option"
-              ]
-            }
-          },
-          "to": [
-            {
-              "shell_command": "open -a iTerm"
             }
           ]
         }
