@@ -5,7 +5,7 @@
     "Tarmeli"
   ],
   "homepage": "https://github.com/tarmeli/Capslock-X",
-  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://github.com/tarmeli/Capslock-X/blob/main/capslock-x.json",
+  "import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/tarmeli/Capslock-X/main/capslock-x.json",
   "rules": [
     {
       "description": "CapsLock to Hyper",
