@@ -434,7 +434,7 @@
           "description": "Delete the character to the left of the insertion point",
           "type": "basic",
           "from": {
-            "key_code": "space",
+            "key_code": "spacebar",
             "modifiers": {
               "mandatory": [
                 "right_command",
@@ -454,7 +454,7 @@
           "description": "Delete the entire line before the cursor",
           "type": "basic",
           "from": {
-            "key_code": "space",
+            "key_code": "spacebar",
             "modifiers": {
               "mandatory": [
                 "left_command",
